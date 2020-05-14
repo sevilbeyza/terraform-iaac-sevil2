@@ -1,10 +1,7 @@
 provider "aws" {
-  region="us-east-1"
+  region="${var.region}" #made soft code
   version="2.59"
 }
-
-# #WE ARE LOOKING OUTPUT HERE 
-
 
 
 #create key

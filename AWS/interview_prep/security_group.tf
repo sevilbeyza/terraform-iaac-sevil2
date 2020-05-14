@@ -2,7 +2,6 @@
 
 module "web_server" {
   source = "yukihira1992/simple-sg/aws"
-
   tags = {
     Name = "web-server"
     Environment = "dev"
