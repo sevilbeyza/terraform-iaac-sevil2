@@ -12,6 +12,31 @@ resource "aws_key_pair" "us-east-1-key-output" {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # #creates instances
 # resource "aws_instance" "web-output" {
 #   ami           = "ami-0323c3dd2da7fb37d"
